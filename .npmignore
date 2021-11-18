@@ -1,0 +1,12 @@
+.DS_Store
+node_modules
+
+src
+
+.idea
+.vscode
+
+.editorconfig
+
+*-lock.json
+*.lock

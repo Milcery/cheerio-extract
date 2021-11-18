@@ -1,0 +1,52 @@
+{
+  "name": "@celebi/cheerio-extract",
+  "version": "0.0.2-beta.1",
+  "description": "Use the string of the specified rule to get the information",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
+  "keywords": [
+    "cheerio",
+    "crawler",
+    "Milcery"
+  ],
+  "author": {
+    "name": "Milcery",
+    "email": "milcery@qq.com",
+    "url": "https://github.com/milcery/cheerio-extract"
+  },
+  "dependencies": {
+    "@celebi/mint-filter": "^3.0.1-beta.3",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.7",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milcery/cheerio-extract.git"
+  },
+  "bugs": {
+    "url": "https://github.com/milcery/cheerio-extract/issues"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/test/.*\\.(ts|tsx|js)$"
+  }
+}
