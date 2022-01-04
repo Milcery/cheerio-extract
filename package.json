@@ -1,6 +1,6 @@
 {
   "name": "@celebi/cheerio-extract",
-  "version": "0.0.2-beta.1",
+  "version": "0.0.2",
   "description": "Use the string of the specified rule to get the information",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -25,11 +25,11 @@
     "cheerio": "^1.0.0-rc.10"
   },
   "devDependencies": {
-    "@types/jest": "^27.0.2",
-    "@types/node": "^16.11.7",
-    "jest": "^27.3.1",
-    "ts-jest": "^27.0.7",
-    "typescript": "^4.5.2"
+    "@types/jest": "^27.4.0",
+    "@types/node": "^17.0.7",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
   },
   "repository": {
     "type": "git",
